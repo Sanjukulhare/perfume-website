@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+nav{
+    width: 100vw;
+    height: 9vh;
+    background-color: aqua;
+    /* text-align: center; */
+}
+.left ul{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+}
+.left ul h1{
+    font-size: 30px;
+}
+.page1{
+    position: relative;
+}
+.page1-content{
+    position: absolute;
+    left: 60%;
+    bottom: 20%;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+.page1 img{
+    width: 100vw;
+    height: 90vh;
+}
+.page2{
+    width: 100%;
+    height: 110vh;
+  
+}
+.page2 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+#section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#elem{
+    /* background-color: red; */
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#elem img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+  .page3{
+    position: relative;
+  }
+.page3 img{
+    width: 95vw;
+    height: 70vh;
+     padding-left: 60px;
+     padding-right: 20px;
+}
+.page3 h1{
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    font-size: 40px;
+    color: #f8f8f8;
+}
+.page3 button{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    padding: 10px 25px 10px 25px;
+}
+.page4{
+    width: 100vw;
+    height: 100vh;
+    background-color:#f8f8f8;
+}
+.page4 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.page4 button{
+    margin-left: 45%;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+}
+/* .page4 .btn{
+    margin-bottom: 900%;
+} */
+.page4-content{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.content img{
+    height: 250px;
+    margin-top: 30px;
+}
+.content1 img{
+    height: 250px;
+    margin-top: 30px;
+}
+.content2 img{
+    height: 250px;
+    margin-top: 30px;
+}
+.content3 img{
+    height: 250px;
+    margin-top: 30px;
+}
+.content4 img{
+    height: 250px;
+    margin-top: 30px;
+}
+.page5{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+.page5 img{
+  padding-left: 7%;
+}
+/* .page5 button{
+    position: absolute;
+    bottom: 40%;
+
+    margin-right:50%;
+} */
+.page6{
+    width: 100vw;
+    height: 100vh;  
+}
+.page6 h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#box1{
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#box1 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+.page6-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* .page7{
+    width: 100vw;
+    height: 100vh;
+} */
+.page7 h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.page7 button{
+    margin-left: 45%;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.page7-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.page8{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    padding-top: 90px;
+    background-image: url("https://www.perfume24x7.com/cdn/shop/files/Banners_2.0_1980_x_500_px_-2.png?v=1640439615&width=1800");
+    background-position: center;
+    background-size: cover;
+}
+.page8-content{
+    width: 30vw;
+    height: 40vh;
+    background-color: #fff;
+   margin-left: 50px;
+   
+}
+.page8-content h3{
+    padding-top: 30px;
+}
+.page8-content p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.page8-content button{
+    padding: 5px 25px 5px 25px;
+    margin-top: 30px;
+    background-color: orange;
+}
+.footer{
+    max-width: 1380px;
+    /* height: 100%; */
+    margin-left: 60px;
+    margin-top: 60px;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+}
+.footer .footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   padding: 60px;
+}
+ .footer-row .footer-col h4{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+ }
+ .footer-col .links{
+   margin-top: 20px;
+ }
+ .footer-col .links li{
+    list-style: none;
+    margin-bottom: 10px;
+
+ }
+ .footer-col .links li a{
+    text-decoration: none;
+    color: #7c6d6d;
+ }
+ .footer-col .links li a:hover{
+    color: orange;
+ }
+ .footer-col p{
+    margin: 20px 0;
+    color: #7c6d6d;
+    max-width: 300px;
+ }
+ @media (max-width:600px) {
+    nav{
+    background-color: brown;
+    }
+    .page1-content{
+        position: absolute;
+        left: 40%;
+        bottom: 20%;
+        color: aliceblue;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .page5 img{
+        height: 300px;
+    }
+ }
